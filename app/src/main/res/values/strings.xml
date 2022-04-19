@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tecnológico Loja</string>
+    <string name="compass_accuracy_low">Please calibrate compass</string>
+
+    <!--String agregados-->
+    <string name="home">Home</string>
+
+    <string name="nombresIST">Instituto Superior Tecnológico Loja</string>
+
+    <string name="quienesSomos">Somos un Instituto público y gratuito. Ofertamos carreras técnicas y tecnológicas de tercer nivel. Para acceder a un cupo debes postular a través de la prueba TRANSFORMAR de Senescyt.</string>
+
+    <string name="vision">Visión</string>
+
+    <string name="visionDescripcion">“Para el año 2022, ser una Institución de Educación Superior Técnica y Tecnológica acreditada comprometida con la docencia, vinculación e investigación para el desarrollo social y productivo”</string>
+
+    <string name="mision">Misión</string>
+
+    <string name="misionDescripcion">“Somos una institución de Educación Superior a nivel técnico y tecnológico, dedicada a formar profesionales comprometidos éticamente con la sociedad, desde una preparación basada en entornos de aprendizaje académicos y experienciales que contribuyan al desarrollo de matriz productiva de la región”</string>
+
+
+    <string name="carrera">Desarrollo de software</string>
+
+    <string name="objetivoCarrera">Formar profesionales con liderazgo, responsabilidad social y ambiental, con sólidos conocimientos científicos y tecnológicos en el Desarrollo de software orientada a proveer soluciones informáticas para satisfacer los requerimientos de la Industria a nivel Nacional e Internacional.</string>
+
+    <string name="perilEgreso">
+    •	Realiza programaciones de complejidad moderada y moderada-avanzada.\n
+    •	Realiza soporte y mantenimiento de software.\n
+    •	Realiza la documentación de software.\n
+    •	Conocimientos en programación de software y lenguajes de programación.\n
+    •	Conocimientos de arquitectura de n capas (servidores de aplicaciones, bases de datos, ambiente web).\n
+    •	Seguridad de la información.
+    </string>
+
+    <string name="mallCurricular">Malla curricular</string>
+
+    <string name="docentes">Equipo Docente</string>
+
+    <!--Nombre de los docentes-->
+    <string name="nombre1">Fabiola Maritza Espinoza Mgs.</string>
+    <string name="nombre2">Mario Andres Palma J. Mgs.</string>
+    <string name="nombre3">Luis Fernando León P. Ing.</string>
+    <string name="nombre4">Marco Javier Rojas V. Mgs.</string>
+    <string name="nombre5">Rosario Cueva Campoverde Ing.</string>
+
+    <!--cargo de los docentes-->
+    <string name="cargo1">Coordinadora de Carrera</string>
+    <string name="cargo2">Docente</string>
+
+    <!--titulo de la carrea-->
+    <string name="tituloOtotgar">Título a otorgar</string>
+    <string name="titulo">Tecnólogo Superior en Desarrollo de Software</string>
+    <string name="duracionCarrera">Duración de la carrera</string>
+    <string name="semestre">Número de semestres: 5\n
+        Años: Dos años y medio
+    </string>
+
+    <!--Ayuda-->
+
+    <string name="ayuda">
+        1) Para hacer uso de la realidad aumentada debe seleccionar la opción que quiere utilizar\n
+        2) Después se le abrirá la camara \n
+        3) Debe enfocar la camara en la imagen con la Realidad aumentada\n
+    </string>
+</resources>

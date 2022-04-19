@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ist"
+    tools:context=".App.RealidadAumentada">
+
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.gridlayout.widget.GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:columnCount="1"
+            app:rowCount="1"
+            app:alignmentMode="alignMargins"
+            app:columnOrderPreserved="false">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                app:cardBackgroundColor="@color/ist"
+                app:cardCornerRadius="6dp"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:padding="15dp"
+                        android:text="@string/docentes"
+                        android:textColor="@color/white"
+                        android:textSize="35dp"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/abel"/>
+
+                </RelativeLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                app:cardBackgroundColor="#FFF"
+                app:cardCornerRadius="6dp"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profile_image_1"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:src="@drawable/fays"
+                        android:layout_margin="4dp"
+                        android:layout_centerHorizontal="true"/>
+                    <TextView
+                        android:id="@+id/name_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/profile_image_1"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/nombre1"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"/>
+                    <TextView
+                        android:id="@+id/tv_pro_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/name_1"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/cargo1"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"/>
+                    <androidx.gridlayout.widget.GridLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv_pro_1"
+                        android:layout_centerHorizontal="true"
+                        app:columnCount="2"
+                        app:rowCount="1">
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_baseline_email_24"
+                            android:background="@drawable/shape_circle_green"
+                            android:layout_margin="4dp"
+                            android:padding="6dp"/>
+                    </androidx.gridlayout.widget.GridLayout>
+
+                </RelativeLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="6dp"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profile_image_2"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:src="@drawable/mario"
+                        android:layout_margin="4dp"
+                        android:layout_centerHorizontal="true"/>
+                    <TextView
+                        android:id="@+id/name_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/profile_image_2"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/nombre2"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"/>
+                    <TextView
+                        android:id="@+id/tv_pro_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/name_2"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/cargo2"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"/>
+                    <androidx.gridlayout.widget.GridLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv_pro_2"
+                        android:layout_centerHorizontal="true"
+                        app:columnCount="2"
+                        app:rowCount="1">
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_baseline_email_24"
+                            android:background="@drawable/shape_circle_green"
+                            android:layout_margin="4dp"
+                            android:padding="6dp"/>
+                    </androidx.gridlayout.widget.GridLayout>
+
+                </RelativeLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="6dp"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profile_image_3"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:src="@drawable/fercho"
+                        android:layout_margin="4dp"
+                        android:layout_centerHorizontal="true"/>
+                    <TextView
+                        android:id="@+id/name_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/profile_image_3"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/nombre3"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"/>
+                    <TextView
+                        android:id="@+id/tv_pro_3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/name_3"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/cargo2"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"/>
+                    <androidx.gridlayout.widget.GridLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv_pro_3"
+                        android:layout_centerHorizontal="true"
+                        app:columnCount="2"
+                        app:rowCount="1">
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_baseline_email_24"
+                            android:background="@drawable/shape_circle_green"
+                            android:layout_margin="4dp"
+                            android:padding="6dp"/>
+                    </androidx.gridlayout.widget.GridLayout>
+
+                </RelativeLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="6dp"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profile_image_4"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:src="@drawable/marco"
+                        android:layout_margin="4dp"
+                        android:layout_centerHorizontal="true"/>
+                    <TextView
+                        android:id="@+id/name_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/profile_image_4"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/nombre4"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"/>
+                    <TextView
+                        android:id="@+id/tv_pro_4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/name_4"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/cargo2"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"/>
+                    <androidx.gridlayout.widget.GridLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv_pro_4"
+                        android:layout_centerHorizontal="true"
+                        app:columnCount="2"
+                        app:rowCount="1">
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_baseline_email_24"
+                            android:background="@drawable/shape_circle_green"
+                            android:layout_margin="4dp"
+                            android:padding="6dp"/>
+                    </androidx.gridlayout.widget.GridLayout>
+
+                </RelativeLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="90dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginLeft="12dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="6dp"
+                app:layout_columnWeight="1"
+                app:layout_rowWeight="1">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/profile_image_5"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:src="@drawable/nse"
+                        android:layout_margin="4dp"
+                        android:layout_centerHorizontal="true"/>
+                    <TextView
+                        android:id="@+id/name_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/profile_image_5"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/nombre5"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"/>
+                    <TextView
+                        android:id="@+id/tv_pro_5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/name_5"
+                        android:layout_centerHorizontal="true"
+                        android:text="@string/cargo2"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"/>
+                    <androidx.gridlayout.widget.GridLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv_pro_5"
+                        android:layout_centerHorizontal="true"
+                        app:columnCount="2"
+                        app:rowCount="1">
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/ic_baseline_email_24"
+                            android:background="@drawable/shape_circle_green"
+                            android:layout_margin="4dp"
+                            android:padding="6dp"/>
+
+                    </androidx.gridlayout.widget.GridLayout>
+
+                </RelativeLayout>
+
+            </com.google.android.material.card.MaterialCardView>
+
+        </androidx.gridlayout.widget.GridLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+    <!--Botones-->
+    <com.google.android.material.bottomappbar.BottomAppBar
+        android:id="@+id/bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        app:backgroundTint="@color/barBlack"
+        app:hideOnScroll="true"
+        app:menu="@menu/bottom_nav_menu"
+        app:navigationIcon="@drawable/ic_baseline_photo_camera_24"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_home_24"
+        app:backgroundTint="@color/barBlack"
+        app:layout_anchor="@id/bar"
+        app:tint="@color/blueLight" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

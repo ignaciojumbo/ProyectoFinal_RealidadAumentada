@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/malla"
+        android:enabled="true"
+        android:title="@string/home"
+        android:icon="@drawable/ic_baseline_menu_book_24"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/docente"
+        android:enabled="true"
+        android:title="docentes"
+        android:icon="@drawable/ic_baseline_supervisor_account_24"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/ubicacion"
+        android:enabled="true"
+        android:title="contacto"
+        android:icon="@drawable/ic_baseline_my_location_24"
+        app:showAsAction="ifRoom"/>
+
+</menu>
